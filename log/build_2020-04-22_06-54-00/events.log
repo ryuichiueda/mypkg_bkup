@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.001203] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002343] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.098979] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.300595] (-) TimerEvent: {}
+[0.401359] (-) TimerEvent: {}
+[0.502059] (-) TimerEvent: {}
+[0.602710] (-) TimerEvent: {}
+[0.703338] (-) TimerEvent: {}
+[0.803994] (-) TimerEvent: {}
+[0.904683] (-) TimerEvent: {}
+[1.005372] (-) TimerEvent: {}
+[1.106651] (-) TimerEvent: {}
+[1.119526] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/src/mypkg/install/mypkg', '--record', '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/ubuntu', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.3 51166 22', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/ubuntu/ros2_ws', 'HOME': '/home/ubuntu', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '164', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/mypkg:/opt/ros/dashing', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg', 'SSH_CONNECTION': '192.168.0.3 51166 192.168.0.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:/home/ubuntu/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'}, 'shell': False}
+[1.206692] (-) TimerEvent: {}
+[1.307560] (-) TimerEvent: {}
+[1.408208] (-) TimerEvent: {}
+[1.508885] (-) TimerEvent: {}
+[1.609534] (-) TimerEvent: {}
+[1.710190] (-) TimerEvent: {}
+[1.810808] (-) TimerEvent: {}
+[1.911430] (-) TimerEvent: {}
+[2.012091] (-) TimerEvent: {}
+[2.112891] (-) TimerEvent: {}
+[2.115777] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.118068] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info\n'}
+[2.118778] (mypkg) StdoutLine: {'line': b'writing /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[2.119773] (mypkg) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[2.120489] (mypkg) StdoutLine: {'line': b'writing entry points to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[2.121096] (mypkg) StdoutLine: {'line': b'writing requirements to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/requires.txt\n'}
+[2.121656] (mypkg) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[2.122243] (mypkg) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.213040] (-) TimerEvent: {}
+[2.282951] (mypkg) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.288273] (mypkg) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.289026] (mypkg) StdoutLine: {'line': b'running build\n'}
+[2.289515] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[2.290276] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[2.290858] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[2.291438] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.291918] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.292485] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.292967] (mypkg) StdoutLine: {'line': b'running install\n'}
+[2.293786] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.296816] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[2.297474] (mypkg) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[2.298082] (mypkg) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[2.299915] (mypkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc\n'}
+[2.301044] (mypkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc\n'}
+[2.302343] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[2.304289] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/share/ament_index\n'}
+[2.305054] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[2.305533] (mypkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[2.306135] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[2.306737] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[2.307193] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.313192] (-) TimerEvent: {}
+[2.313831] (mypkg) StdoutLine: {'line': b'Copying /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info to /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[2.318786] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.397558] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[2.399048] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[2.413412] (-) TimerEvent: {}
+[2.489371] (mypkg) CommandEnded: {'returncode': 0}
+[2.513714] (-) TimerEvent: {}
+[2.548103] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[2.551311] (-) EventReactorShutdown: {}

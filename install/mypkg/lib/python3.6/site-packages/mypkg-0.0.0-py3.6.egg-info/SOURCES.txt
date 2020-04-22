@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/PKG-INFO
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/dependency_links.txt
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/entry_points.txt
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/requires.txt
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/top_level.txt
+/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/zip-safe
+mypkg/__init__.py
+mypkg/talker.py
+resource/mypkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

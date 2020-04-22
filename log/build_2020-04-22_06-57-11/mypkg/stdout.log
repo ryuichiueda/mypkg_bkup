@@ -1,0 +1,22 @@
+[2.135s] running egg_info
+[2.138s] writing /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/PKG-INFO
+[2.139s] writing dependency_links to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/dependency_links.txt
+[2.140s] writing entry points to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/entry_points.txt
+[2.141s] writing requirements to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/requires.txt
+[2.141s] writing top-level names to /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/top_level.txt
+[2.301s] reading manifest file '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.307s] writing manifest file '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.308s] running build
+[2.309s] running build_py
+[2.309s] copying mypkg/talker.py -> /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[2.310s] running install
+[2.312s] running install_lib
+[2.315s] copying /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[2.317s] byte-compiling /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[2.319s] running install_data
+[2.321s] running install_egg_info
+[2.329s] removing '/home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[2.330s] Copying /home/ubuntu/ros2_ws/src/mypkg/build/mypkg/mypkg.egg-info to /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[2.335s] running install_scripts
+[2.414s] Installing talker script to /home/ubuntu/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[2.416s] writing list of installed files to '/home/ubuntu/ros2_ws/src/mypkg/build/mypkg/install.log'
